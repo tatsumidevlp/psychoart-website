@@ -1,0 +1,10 @@
+.tape {
+    margin-top: 150px;
+    width: 100%;
+    .container {
+        .tape__content {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

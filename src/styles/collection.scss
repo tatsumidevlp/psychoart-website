@@ -1,0 +1,120 @@
+.collection {
+    margin-top: 200px;
+}
+
+
+.collection__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+
+.collection__subtitle {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.collection__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+
+
+#inactive__button {
+    width: 288px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+.btn2 {
+    width: 288px !important;
+    height: 40px !important;
+}
+
+
+.collection__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column {
+    margin-bottom: 50px !important;
+}
+
+
+
+.card {
+    width: 389px;
+    height: 595px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 26px;
+    margin-bottom: 15px;
+    .card__image {
+        img {
+            width: 337px;
+            height: 380px;
+        }
+    }
+    .card__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .card__firstpart {
+            .card__author {
+                font-weight: 300;
+                font-size: 18px;
+                color: rgba(255, 255, 255, 0.5);
+                // padding: 0px 0px 10px 0px;
+            }
+            .card__name {
+                font-size: 17px;
+                padding: 0px 0px 23px 0px;
+            }
+        }
+        .card__secondpart {
+            .card__bid {
+                font-weight: 300;
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            .card__bid-amount {
+                font-weight: 700;
+                color: #fff;
+                font-size: 17px;
+            }
+        }
+    }
+    .card__button {
+        .btn {
+            width: 100% !important;
+            height: 50px !important;
+        }
+    }
+}
+
+
+#special-card {
+    background: rgba(255, 255, 255, 0.5) !important;
+    .card__button {
+        .btn {
+            background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border: 1px solid #671AE4;
+            font-weight: 600;
+        }
+    }
+}
